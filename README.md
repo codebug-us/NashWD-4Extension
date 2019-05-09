@@ -1,9 +1,8 @@
 # Igpay Atinlay (Pig Latin) Translator 
 
-You should be working through this exercise with a partner! Decide who is "Partner A" and who is "Partner B". 
+You should be working through this exercise with a partner! One of you should be the "driver" and one of you should be the "navigator". The "driver" will be the person typing, and the navigator will be the person directing what code should be written. 
 
-
-## For this first part "Partner A" will be typing the code while "Partner B" directs "Partner A" on what code to write. You should still collaborate on possible solutions!
+## Make sure to switch who is the driver and who is the navigator every 10-15 minutes!
   - Before you get started play around with this [translator](https://lingojam.com/PigLatinTranslator) to familiarize yourself with pig latin.
   - Create a function called `englishToPigLatin` that takes an English `word`. Your function should translate the given English word into Pig Latin. See example below...
       ```
@@ -20,32 +19,11 @@ You should be working through this exercise with a partner! Decide who is "Partn
           => "ingstray"
       ```
 
-## For this first part "Partner B" will be typing the code while "Partner A" directs "Partner B" on what code to write. You should still collaborate on possible solutions!
-  - Create a function called `igpayAtinlayOtayEnglishyay` that takes in a word in Pig Latin and returns the word translated into English.
-    ```
-      igpayAtinlayOtayEnglishyay("istanceday");
-        => "distance"
-      
-      igpayAtinlayOtayEnglishyay("iendlyfray");
-        => "friendly"
-      
-      igpayAtinlayOtayEnglishyay("explainyay");
-        => "explain"
-      
-      igpayAtinlayOtayEnglishyay("ingstray");
-        => "string"
-    ```
-
-## Extension (can be done solo if you woud like!)
-  - Do your functions work for sentences too?
+## Extension (can be done solo if you'd like)
+  - Does your function work for sentences too?
     ```
     
     englishToPigLatin("The store was jammed before the sale could start. The crooked maze failed to fool the mouse.");
       
       => "ethay orestay asway ammedjay eforebay ethay alesay ouldcay artstay. Ethay ookedcray azemay ailedfay otay oolfay ethay ousemay."
-    
-
-    igpayAtinlayOtayEnglishyay("ethay orestay asway ammedjay eforebay ethay alesay ouldcay artstay. Ethay ookedcray azemay ailedfay otay oolfay ethay ousemay.");
-      
-      => "The store was jammed before the sale could start. The crooked maze failed to fool the mouse."
-    ```
+   
